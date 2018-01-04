@@ -62,8 +62,10 @@ git checkout b1  # switch to new branch, and you can modify codes, and it will n
 git checkout master
 git merge b1  # return to master branch and bring up the changes in b1
 
+
 git checkout b1
 # git add . git commit git push you need to set up the branch online (upsstream)
 git push --set-upstream origin b1
 # then you can also merge online
+
 ```
