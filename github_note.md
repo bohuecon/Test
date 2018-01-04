@@ -45,3 +45,5 @@ git branch b1 # adding new branch
 git checkout b1  # switch to new branch, and you can modify codes, and it will not change anything on other branches
 
 ```
+
+$V^2$ 
