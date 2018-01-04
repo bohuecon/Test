@@ -43,6 +43,7 @@ git tag -a v1.1 -m "tag for release version 1"  # create annodated tag
 git tag  # list tags
 git push origin v1.0 # push tags to remote repository
 git push --tags # push all tags
+git tag -d v1.0
 ```
 
 
