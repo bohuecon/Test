@@ -38,6 +38,7 @@ git push
 # tagging
 
 # branching
+Notice all these set ups about branches are local, and it is not related to the remote repository. 
 ```bash
 git branch  # list branches
 git branch b1 # adding new branch
