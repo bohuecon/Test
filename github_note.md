@@ -1,4 +1,4 @@
-# set up a repository on github
+# 1. Set up a repository on github
 
 ## method 1
 1. set up a repository on Github
@@ -20,7 +20,7 @@ git push origin master
 git remote -v
 ```
 
-# work flow: staging, commit, pushing
+# 2. Work flow: staging, commit, pushing
 1. Stage
 ```bash
 git add -A
@@ -35,9 +35,18 @@ git commit -m "message"
 git push
 ```
 
-# tagging
+# 3. Tagging
 
-# branching
+```
+git tag v1.0  # create a tag
+git tag -a v1.1 -m "tag for release version 1"  # create annodated tag
+git tag  # list tags
+git push origin v1.0 # push tags to remote repository
+git push --tags # push all tags
+```
+
+
+# 4. Branching
 
 Notice all these set ups about branches are local, and it is not related to the remote repository. 
 
@@ -52,7 +61,8 @@ git checkout b1  # switch to new branch, and you can modify codes, and it will n
 git checkout master
 git merge b1  # return to master branch and bring up the changes in b1
 
-
+git checkout b1
+# git add . git commit git push you need to set up the branch online (upsstream)
+git push --set-upstream origin b1
+# then you can also merge online
 ```
-
-$V^2$ 
