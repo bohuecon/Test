@@ -38,11 +38,20 @@ git push
 # tagging
 
 # branching
+
 Notice all these set ups about branches are local, and it is not related to the remote repository. 
+
 ```bash
 git branch  # list branches
 git branch b1 # adding new branch
 git checkout b1  # switch to new branch, and you can modify codes, and it will not change anything on other branches
+
+# some work in branch b1
+# now you have two branches, and they are of different files, if you checkout back to master, you will find the file you are editing are different. 
+
+git checkout master
+git merge b1  # return to master branch and bring up the changes in b1
+
 
 ```
 
