@@ -52,6 +52,8 @@ git checkout b1  # switch to new branch, and you can modify codes, and it will n
 git checkout master
 git merge b1  # return to master branch and bring up the changes in b1
 
+# here you can work on the flow and push
+
 
 ```
 
